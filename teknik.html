@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Min personliga portfölj inom systemutveckling">
+    <title>Min Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <h1>Min sida</h1>
+            <button class="menu-button">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="about.html">Om mig</a></li>
+                <li><a href="teknik.html">Teknik</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="cv.html">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="teknik">
+            <h2>Tekniska färdigheter</h2>
+            <label for="filter">Filtrera efter ämne:</label>
+            <select id="filter">
+                <option value="all">Alla</option>
+                <option value="JavaScript">Frontend</option>
+                <option value="Java">Backend</option>
+                <option value="Hsqldb">Databas</option>
+                <option value="css">css</option>
+                <option value="HTML">HTML</option>
+            </select>
+            <div class="articles">
+                <article class="JavaScript">
+                    <img src="images/Jsbild.png" alt="Frontend-bild">
+                    <h3>JavaScript</h3>
+                    <p>Har byggt en hemsida med JavaScript bl a.</p>
+                </article>
+                <article class="Java">
+                    <img src="images/Javabild.png" alt="Backend-bild">
+                    <h3>Java</h3>
+                    <p>Erfarenhet av Java. Har gjort tre stycken olika projekt som går att se på github.
+                        Bl a ett tärningsspel, ett äventyrsspel och en databasanslutning för att hämta information 
+                        från databaser.
+                    </p>
+                </article>
+                <article class="Hsqldb">
+                    <img src="images/Hsqldbbild.png" alt="Databas-bild">
+                    <h3>HSQLDB</h3>
+                    <p>Erfarenhet av Hsqldb. Har gjort en databasanslutning för att hämta information 
+                        från databaser och skriva ut resultatet med hjälp av Java.
+                    </p>
+                </article>
+                <article class="css">
+                    <img src="images/Cssbild.png" alt="css-bild">
+                    <h3>css</h3>
+                    <p>Har bl a gjort denna hemsida med hjälp av CSS.
+                    </p>
+                </article>
+                <article class="HTML">
+                    <img src="images/Htmlbild.png" alt="HTML">
+                    <h3>HTML</h3>
+                    <p>Har bl a gjort denna hemsida med hjälp av HTML.
+                    </p>
+                </article>
+                
+            </div>
+        </section>
+    </main>
+    
+
+    <footer>
+        <p>© 2025 Henrik Granbohm. Byggd med HTML, CSS och JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
